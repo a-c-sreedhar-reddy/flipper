@@ -74,10 +74,14 @@ yarn start
 
 NOTE: If you're on Windows, you need to use Yarn 1.5.1 until [this issue](https://github.com/yarnpkg/yarn/issues/6048) is resolved.
 
-### Building standalone application
-
+## Building standalone application
+mac:
 ```
 yarn build --mac --version $buildNumber
+```
+linux:
+```
+yarn build --linux --version $buildNumber
 ```
 
 ## iOS SDK + Sample App
